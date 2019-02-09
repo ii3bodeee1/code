@@ -40,7 +40,7 @@ client2.on('message', message => {
 });
 
 client2.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === 'gمبلغ'){
         message.channel.send('#credits')
     }
 });
